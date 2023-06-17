@@ -1,0 +1,71 @@
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    margin-bottom: 160px;
+  }
+  
+  .timer{
+    position: relative;
+    overflow: hidden;
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background: #111;
+    border: 1px solid #aaa;
+  }
+
+  .days{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .days div{
+    padding: 9px;
+    position: relative;
+    z-index: 1;
+    border: 1px solid #69747C;
+    margin-bottom: 20px;
+  }
+  
+  .timer h2{
+    position: relative;
+    z-index: 1;
+    font-weight: 900;
+    font-size: 40px;
+    margin-bottom: 30px;
+  }
+  
+  .timer h4{
+    font-size: 35px;
+    position: relative;
+    background: #111;
+    height: 60px;
+    width: 90px;
+    border: 1px solid #555;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .days p{
+    padding-top: 2px;
+    position: relative;
+    font-size: 20px;
+    z-index: 1;
+  }
+  
+  .timer span{
+    z-index: 1;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 200;
+  }
